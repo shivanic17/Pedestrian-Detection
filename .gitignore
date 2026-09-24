@@ -1,0 +1,10 @@
+# Ignore Datasets and Image Folders
+cityscapes/
+citypersons_yolo/
+gtBboxCityPersons/
+
+# Ignore Large Archives
+*.zip
+
+# Ignore base PyTorch weights (Streamlit will download this automatically if needed)
+yolo11n.pt
